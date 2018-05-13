@@ -20,8 +20,7 @@ class A{
          d = 5.3;
          s = "cykel";
       }
-      
-
+      A(string arg1, int notUsed) : A(4.2){ s=arg1;}; // ctor delegation      
 
    private:
       int i;
@@ -33,5 +32,6 @@ int main(){
    A a1(11);
    A a2(3.14);
    A a3("test");
+   A a4("delegation",1);
    
 }

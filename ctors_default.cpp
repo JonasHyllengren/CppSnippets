@@ -21,7 +21,7 @@ class B{ // misses default ctor
 class C{
    public: 
       // C(int temp): i{temp} {}; 
-      // Since no ctor is decleared, the compiler generates a default ctor!
+      // Since no ctor is declared, the compiler generates a default ctor!
    private:
       int i;
 };
