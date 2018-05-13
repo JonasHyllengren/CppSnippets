@@ -18,14 +18,27 @@ class B{ // misses default ctor
       int i;
 };
 
+class C{
+   public: 
+      // C(int temp): i{temp} {}; 
+      // Since no ctor is decleared, the compiler generates a default ctor!
+   private:
+      int i;
+};
+
 int main(){
 
    A a(3);
    B b(4);
+   C c;
 
    A a1;
    // B b1; // Not Ok since no default ctor exists! 
-   
+
+   A aStack; // stack-based call to default ctor
+   A* aHeap = new A(); // heap-based call to default ctor
+   // A* aHeap2; // Not ok because C++ says so!
+
    // a1.A(3); // Tries to call the ctor again. Not ok!
    
    A a2(); // WARNING: This declares a function! 
