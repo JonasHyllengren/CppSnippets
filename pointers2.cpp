@@ -21,7 +21,8 @@ int main(){
    cout << "Using arrows: " << p->i1 << ", " << p->getI2() << endl;
    cout << "Using '*.'  : " << (*p).i1 << ", " << (*p).getI2() << endl;
    
+   A* p2 = new A(5,-3);
+   cout << "Heap allocation: " << p2->i1 << ", " << p2->getI2() << endl;
+   delete p2;
    
-
-
 }
