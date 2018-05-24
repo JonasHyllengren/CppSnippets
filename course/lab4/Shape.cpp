@@ -1,5 +1,4 @@
 
-#include "stdafx.h"
 #include "Shape.h"
 #include <sstream>
 
