@@ -1,8 +1,5 @@
 // explicit pre-instatiotations of my_vector<T>
 
-
-#include "stdafx.h"
-
 //#include "my_vector.h"
 #include <string>
 #include <iostream>

@@ -1,6 +1,4 @@
 
-#include "stdafx.h"
-
 #include "my_vector.h"
 
 #include <iostream>
@@ -9,7 +7,6 @@
 #include <utility>
 
 #include <memory>
-
 
 template <typename T>
 class my_vector_owner
