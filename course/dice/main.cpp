@@ -1,7 +1,5 @@
-
 #include <iostream>
 #include "dice.h"
-
 
 /******************* TEST CODE ************************/
 
