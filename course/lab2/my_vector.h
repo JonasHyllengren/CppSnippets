@@ -1,6 +1,5 @@
 #pragma once
 
-#include "stdafx.h"
 #include <cstddef> // std::size_t
 
 class my_vector {

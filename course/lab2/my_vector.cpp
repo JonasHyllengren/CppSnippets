@@ -1,7 +1,5 @@
 // My implementation
 
-#include "stdafx.h"
-
 #include <iostream>
 #include "my_vector.h"
 
@@ -23,7 +21,7 @@ my_vector::my_vector(std::size_t size, const value_type& init /* = value_type() 
 }
 
 my_vector::my_vector(const my_vector& rh) :
-	theSize(v.size()), pVec(new value_type[theSize])// copy ctor
+	theSize(rh.size()), pVec(new value_type[theSize])// copy ctor
 {
 	for (std::size_t i(0); i < theSize; ++i)
 	{
